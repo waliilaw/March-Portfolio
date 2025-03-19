@@ -36,8 +36,8 @@ export default function Home() {
                   </p>
                   <p>
                     Web3 Dev{" "}
-                    <Link href="https://soliditylang.org" className="text-green-400 hover:text-white hover:bg-green-400 p-1">
-                      ${"{"}Solidity{"}"}
+                    <Link href="https://solana.com" className="text-green-400 hover:text-white hover:bg-green-400 p-1">
+                      ${"{"}Solana{"}"}
                     </Link>
                   </p>
                   <p>
@@ -69,6 +69,7 @@ export default function Home() {
               <div className="space-y-2">
                 <h3 className="text-green-400 hover:text-white hover:bg-green-400 p-1 w-14">2025</h3>
                 <p>started learning about web3</p>
+                <p>learning mobile dev {"{ react-native }"}</p>
               </div>
             </div>
           </section>
