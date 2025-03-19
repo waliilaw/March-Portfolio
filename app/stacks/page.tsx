@@ -38,6 +38,7 @@ export default function Stacks() {
                   <span className="bg-green-900/20 px-3 py-1 rounded">React</span>
                   <span className="bg-green-900/20 px-3 py-1 rounded">Next.js</span>
                   <span className="bg-green-900/20 px-3 py-1 rounded">TailwindCSS</span>
+                  <span className="bg-green-900/20 px-3 py-1 rounded">Native</span>
                 </div>
               </div>
 
