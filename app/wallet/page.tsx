@@ -105,9 +105,10 @@ export default function Wallet() {
       </div>
       <div className="flex flex-row relative">
         {/* <Image src={'arrow.png'} width={50} height={50} className="pt-40 absolute -top-1 left-14 rotate-90" alt="arrow" /> */}
-        <Image src={'please.jpg'} width={250} height={10} className="pt-20 rounded-full" alt="please"/>
+        <Image src={'please.jpg'} width={250} height={10} className="border-2 border-black mt-20 rounded-full" alt="please"/>
+      
       </div>
-      <div className="mt-3 text-black hover:bg-green-400 hover:text-white p-1">Be kind</div>
+      {/* <div className="mt-3 text-black hover:bg-green-400 hover:text-white p-1">Be kind</div> */}
     </main>
   )
 }
