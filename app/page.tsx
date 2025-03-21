@@ -16,6 +16,9 @@ export default function Home() {
           <Link href="/projects" className="hover:text-white hover:bg-green-400 p-1 transition-colors">
             ./projects
           </Link>
+          <Link href="/wallet" className="hover:text-white hover:bg-green-400 p-1 transition-colors">
+            ./wallet
+          </Link>
         </nav>
 
         <div className="space-y-8">
@@ -47,7 +50,7 @@ export default function Home() {
                     </Link>
                   </p>
                   <p>
-                    Mobile Dev{" "}
+                    Mobile Developer{" "}
                     <Link href="https://reactnative.dev" className="text-green-400 hover:text-white hover:bg-green-400 p-1">
                       ${"{"}Native{"}"}
                     </Link>
@@ -91,7 +94,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="relative bottom-0 pt-2 text-center text-green-900/70">
-        @terminal by <span className="text-green-400/70">wali</span>
+        @terminal by <span className="text-green-400/70 hover:bg-green-400 hover:text-white p-1">wali</span>
       </div>
           </section>
           
