@@ -16,9 +16,9 @@ export default function Home() {
           <Link href="/projects" className="hover:text-white hover:bg-green-400 p-1 transition-colors">
             ./projects
           </Link>
-          {/* <Link href="/wallet" className="hover:text-white hover:bg-green-400 p-1 transition-colors">
-            ./wallet
-          </Link> */}
+          <Link href="/wallet" className="hover:text-white hover:bg-green-400 p-1 transition-colors">
+            ./..
+          </Link>
         </nav>
 
         <div className="space-y-8">
@@ -98,12 +98,15 @@ export default function Home() {
       </div>
           </section>
           <section className="space-y-4">
-            <h2 className="text-green-900 border-b border-green-800 pb-2 hover:text-white hover:bg-green-400 p-1">~ social_links</h2>
-            <div className="flex flex-wrap gap-4 text-sm">
-             
-             </div>
-             </section>
-             
+            <h2 className="text-green-900 border-b border-green-800 pb-2 hover:text-white hover:bg-green-400 p-1">~ github_contributions</h2>
+            <div className="bg-neutral-100 p-4 rounded-lg shadow-sm border border-green-100">
+              <img 
+                src={`https://github-contributions-api.deno.dev/waliilaw.svg?from=2024-09-2&scheme=green`}
+                alt="GitHub Contributions Graph"
+                className="w-full h-auto dark:invert-0"
+              />
+            </div>
+          </section>
           
         </div>
       </div>
