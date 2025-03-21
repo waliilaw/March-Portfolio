@@ -41,7 +41,7 @@ export default function Wallet() {
             ./projects
           </Link>
           <Link href="/wallet" className="text-white bg-green-400 p-1 transition-colors">
-            ./wallet
+            ./..
           </Link>
         </nav>
 
