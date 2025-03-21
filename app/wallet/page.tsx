@@ -47,6 +47,21 @@ export default function Wallet() {
 
         <div className="space-y-8">
           <section className="space-y-4">
+          <div className="flex flex-row relative ">
+      <section className="space-y-4">
+            <h2 className="text-green-900 border-b border-green-800 pb-2 hover:text-white hover:bg-green-400 p-1">~ github_contributions</h2>
+            <div className="bg-neutral-100 p-4 rounded-lg shadow-sm border border-green-100">
+              <img 
+                src={`https://github-contributions-api.deno.dev/waliilaw.svg?from=2024-09-2&scheme=green`}
+                alt="GitHub Contributions Graph"
+                className="w-full h-auto dark:invert-0"
+              />
+            </div>
+          </section>
+        {/* <Image src={'arrow.png'} width={50} height={50} className="pt-40 absolute -top-1 left-14 rotate-90" alt="arrow" /> */}
+        {/* <Image src={'please.jpg'} width={250} height={10} className="border-2 border-black mt-16 rounded-full" alt="please"/> */}
+      
+      </div>
             <h2 className="text-green-900 border-b border-green-800 pb-2 hover:text-white hover:bg-green-400 p-1">
               wallet_address
             </h2>
@@ -103,11 +118,7 @@ export default function Wallet() {
           
         </div>
       </div>
-      <div className="flex flex-row relative">
-        {/* <Image src={'arrow.png'} width={50} height={50} className="pt-40 absolute -top-1 left-14 rotate-90" alt="arrow" /> */}
-        {/* <Image src={'please.jpg'} width={250} height={10} className="border-2 border-black mt-16 rounded-full" alt="please"/> */}
-      
-      </div>
+    
       {/* <div className="mt-3 text-black hover:bg-green-400 hover:text-white p-1">Be kind</div> */}
     </main>
   )

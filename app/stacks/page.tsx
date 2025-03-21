@@ -16,9 +16,9 @@ export default function Stacks() {
           <Link href="/projects" className="hover:text-white hover:bg-green-400 p-1 transition-colors">
             ./projects
           </Link>
-          {/* <Link href="/wallet" className="hover:text-white hover:bg-green-400 p-1 transition-colors">
-            ./wallet
-          </Link> */}
+          <Link href="/wallet" className="hover:text-white hover:bg-green-400 p-1 transition-colors">
+            ./..
+          </Link>
         </nav>
 
         <div className="space-y-8">
