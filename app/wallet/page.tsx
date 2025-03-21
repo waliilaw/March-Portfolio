@@ -48,13 +48,14 @@ export default function Wallet() {
         <div className="space-y-8">
           <section className="space-y-4">
           <div className="flex flex-row relative ">
-      <section className="space-y-4">
+            
+          <section className="space-y-4">
             <h2 className="text-green-900 border-b border-green-800 pb-2 hover:text-white hover:bg-green-400 p-1">~ github_contributions</h2>
-            <div className="bg-neutral-100 p-4 rounded-lg shadow-sm border border-green-100">
+            <div className="bg-green-900/10 p-4 rounded-lg">
               <img 
-                src={`https://github-contributions-api.deno.dev/waliilaw.svg?from=2024-09-2&scheme=green`}
+                src={`https://github-readme-activity-graph.vercel.app/graph?username=waliilaw&bg_color=ffffff&color=4ade80&line=4ade80&point=4ade80&area=true&hide_border=true`}
                 alt="GitHub Contributions Graph"
-                className="w-full h-auto dark:invert-0"
+                className="w-full h-auto rounded"
               />
             </div>
           </section>
