@@ -49,16 +49,7 @@ export default function Wallet() {
           <section className="space-y-4">
           <div className="flex flex-row relative ">
             
-          <section className="space-y-4">
-            <h2 className="text-green-900 border-b border-green-800 pb-2 hover:text-white hover:bg-green-400 p-1">~ github_contributions</h2>
-            <div className="bg-green-900/10 p-4 rounded-lg">
-              <img 
-                src={`https://github-readme-activity-graph.vercel.app/graph?username=waliilaw&bg_color=ffffff&color=4ade80&line=4ade80&point=4ade80&area=true&hide_border=true`}
-                alt="GitHub Contributions Graph"
-                className="w-full h-auto rounded"
-              />
-            </div>
-          </section>
+       
         {/* <Image src={'arrow.png'} width={50} height={50} className="pt-40 absolute -top-1 left-14 rotate-90" alt="arrow" /> */}
         {/* <Image src={'please.jpg'} width={250} height={10} className="border-2 border-black mt-16 rounded-full" alt="please"/> */}
       
