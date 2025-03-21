@@ -19,9 +19,9 @@ export default function Projects() {
           <Link href="/projects" className="text-white bg-green-400 p-1 transition-colors">
             ./projects
           </Link>
-          <Link href="/wallet" className="hover:text-white hover:bg-green-400 p-1 transition-colors">
+          {/* <Link href="/wallet" className="hover:text-white hover:bg-green-400 p-1 transition-colors">
             ./wallet
-          </Link>
+          </Link> */}
         </nav>
 
 

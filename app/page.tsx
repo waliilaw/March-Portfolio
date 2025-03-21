@@ -3,7 +3,7 @@ import { Terminal } from "lucide-react"
 
 export default function Home() {
   return (
-    <main className="max-h-screen bg-white text-green-900 p-4 md:p-8 font-mono flex justify-center items-center ">
+    <main className="min-h-screen bg-white text-green-900 p-4 md:p-8 font-mono flex justify-center items-center ">
       <div className="max-w-2xl w-full">
         <nav className="flex items-center gap-6 text-sm mb-8 pt-0">
           <Terminal className="w-5 h-5" />
@@ -97,6 +97,13 @@ export default function Home() {
         @terminal by <span className="text-green-400/70 hover:bg-green-400 hover:text-white p-1">wali</span>
       </div>
           </section>
+          <section className="space-y-4">
+            <h2 className="text-green-900 border-b border-green-800 pb-2 hover:text-white hover:bg-green-400 p-1">~ social_links</h2>
+            <div className="flex flex-wrap gap-4 text-sm">
+             
+             </div>
+             </section>
+             
           
         </div>
       </div>
