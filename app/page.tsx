@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="max-h-screen bg-white pb-24 text-green-900 p-4 md:p-8 font-mono flex justify-center items-center pt-4 ">
     <div className="max-w-2xl w-full">
-      <nav className="flex items-center gap-6 text-sm mb-8">
+      <nav className="flex items-center gap-6 text-sm mb-8 pt-20">
           <Terminal className="w-5 h-5" />
           <Link href="/" className="text-white bg-green-400 p-1 transition-colors">
             ~/home
