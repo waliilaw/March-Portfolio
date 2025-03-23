@@ -4,7 +4,7 @@ import { Terminal } from "lucide-react"
 export default function Home() {
   return (
     <main className="max-h-screen bg-white text-green-900 p-4 md:p-8 font-mono flex justify-center items-center">
-      <div className="max-w-full w-full">
+      <div className="max-w-2xl w-full">
         <nav className="flex items-center gap-6 text-sm mb-8 pt-0">
           <Terminal className="w-5 h-5" />
           <Link href="/" className="text-white bg-green-400 p-1 transition-colors">
