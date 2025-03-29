@@ -48,7 +48,7 @@ export default function Projects() {
                 </div>
               </div>
 
-              <div className="space-y-2 p-4 bg-green-900/10 rounded-lg hover:bg-green-900/20 transition-colors flex cursor-pointer " onClick={() => window.location.href = "https://github.com/waliilaw/Mines"} >
+              <div className="space-y-2 p-4 bg-green-900/10 rounded-lg hover:bg-green-900/20 transition-colors flex cursor-pointer " onClick={() => window.location.href = "https://github.com/waliilaw/Stake-Mines"} >
                 {/* <Image src="/rangers.webp" className="w-[120px] h-[120px] bg-green-900/20 rounded-lg mr-4 mt-6 md:mt-2 object-cover" width={160} height={160} alt="pic"/> */}
                 <div className="flex-1">
                   <div className="flex items-start justify-between">
