@@ -66,23 +66,7 @@ export default function Projects() {
                 </div>
               </div>
 
-              <div className="space-y-2 p-4 bg-green-900/10 rounded-lg hover:bg-green-900/20 transition-colors flex cursor-pointer " onClick={() => window.location.href = "https://github.com/waliilaw/Imagine"} >
-                {/* <Image src="/rangers.webp" className="w-[120px] h-[120px] bg-green-900/20 rounded-lg mr-4 mt-6 md:mt-2 object-cover" width={160} height={160} alt="pic"/> */}
-                <div className="flex-1">
-                  <div className="flex items-start justify-between">
-                    <h3 className="text-green-400 font-bold">Imagine</h3>
-                    <Link href="#" className="text-green-900 hover:text-green-400">
-                      <ExternalLink className="w-4 h-4" />
-                    </Link>
-                  </div>
-                  <p className="text-sm pt-2">An AI image generator that provides custom prompts or even take prompts from the user (intended to be the clone of PhotoAI)</p>
-                  <div className="flex flex-wrap gap-2 text-xs pt-5">
-                    <span className="bg-green-900/20 px-2 py-1 rounded">TailwindCSS</span>
-                    <span className="bg-green-900/20 px-2 py-1 rounded">Nextjs</span>
-                    <span className="bg-green-900/20 px-2 py-1 rounded">Typescript</span>
-                  </div>
-                </div>
-              </div>
+   
 
 
               <div className="space-y-2 p-4 bg-green-900/10 rounded-lg hover:bg-green-900/20 transition-colors flex cursor-pointer " onClick={() => window.location.href = "https://github.com/waliilaw/Chaser-final"} >
@@ -121,6 +105,23 @@ export default function Projects() {
                 </div>
               </div>
 
+              <div className="space-y-2 p-4 bg-green-900/10 rounded-lg hover:bg-green-900/20 transition-colors flex cursor-pointer " onClick={() => window.location.href = "https://github.com/waliilaw/Imagine"} >
+                {/* <Image src="/rangers.webp" className="w-[120px] h-[120px] bg-green-900/20 rounded-lg mr-4 mt-6 md:mt-2 object-cover" width={160} height={160} alt="pic"/> */}
+                <div className="flex-1">
+                  <div className="flex items-start justify-between">
+                    <h3 className="text-green-400 font-bold">Imagine</h3>
+                    <Link href="#" className="text-green-900 hover:text-green-400">
+                      <ExternalLink className="w-4 h-4" />
+                    </Link>
+                  </div>
+                  <p className="text-sm pt-2">An AI image generator that provides custom prompts or even take prompts from the user (intended to be the clone of PhotoAI)</p>
+                  <div className="flex flex-wrap gap-2 text-xs pt-5">
+                    <span className="bg-green-900/20 px-2 py-1 rounded">TailwindCSS</span>
+                    <span className="bg-green-900/20 px-2 py-1 rounded">Nextjs</span>
+                    <span className="bg-green-900/20 px-2 py-1 rounded">Typescript</span>
+                  </div>
+                </div>
+              </div>
 
               <div className="space-y-2 p-4 bg-green-900/10 rounded-lg hover:bg-green-900/20 transition-colors flex cursor-pointer " onClick={() => window.location.href = "https://github.com/waliilaw/Valentino"} >
             
